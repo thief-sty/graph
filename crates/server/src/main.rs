@@ -11,6 +11,8 @@
 //!
 //! Check the `examples` folder for scripts that demonstrate client-server interaction.
 
+#![allow(clippy::result_large_err)]
+
 mod actions;
 mod catalog;
 mod server;
